@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 240, 240, 0.993);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, td, th{
+    border: solid 1px ;
+}
+
+.container{
+    height: 785px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableContainer{
+    height: 700px;
+    width: 1400px;
+}
+
+.addNewBtnContainer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.subtableContainer{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+}
+
+table{
+    height: 600px;
+    width: 1400px;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+}
+
+th, td{
+    height: 40px;
+    width: 226px;
+    margin: 0;
+    padding: 0;
+}
+
+th{
+    text-align: left;
+    padding-left: 5px;
+    border: none;
+}
+
+td{
+    padding-left: 5px;
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.342);
+}
+
+.subTable{
+    background-color: rgb(217, 218, 219);
+    height: 44px;
+    width: 1398px;
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: solid 1px black;
+}
+
+.row1{
+    position: relative;
+}
+
+.addNewBtn{
+    height: 39px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(16, 172, 16);
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: backgrouund-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.addNewBtn:active{
+    transform: scale(0.9);
+    background-color: rgb(9, 116, 9);
+}
+
+.editBtn, .deleteBtn{
+    border: none;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.15s, transform 0.15s;
+}
+
+.editBtn{
+    background-color: rgb(67, 191, 233);
+    border-radius: 5px;
+}
+
+.deleteBtn{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.editBtn:active{
+    transform: scale(0.9);
+    background-color: rgb(3, 146, 194);
+}
+
+.deleteBtn:active{
+    transform: scale(0.9);
+    background-color: rgb(138, 4, 4);
+}
+
+/*Add New*/
+.addnewContainer{
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px;
+}
+
+.newStudent{
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.newUser{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputData{
+    height: 30px;
+    width: 290px;
+    border-radius: 5px;
+    border: solid 1px;
+    padding-left: 5px;
+}
+
+.paragraph1{
+    z-index: 1;
+    margin-left: 2px;
+    margin-right: 90px;
+}
+
+.paragraph3{
+    z-index: 1;
+    margin-left: 1px;
+    margin-right: 28px;
+}
+
+.paragraph4{
+    z-index: 1;
+    margin-left: 1px;
+    margin-right: 52px;
+}
+
+.paragraph5{
+    z-index: 1;
+    margin-left: 2px;
+    margin-right: 22px;
+}
+
+.paragraph2{
+    z-index: 1;
+    margin-left: 2px;
+    margin-right: 28px;
+}
+
+.highlight{
+    animation: move 0.8s ease forwards;
+}
+
+.paragraph{
+    padding-top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.submitContainer{
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.submitBtn{
+    margin-right: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.submitBtn:active{
+    transform: scale(0.9);
+}
+
+.backBtn{
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-left: 10px;
+    width: 35px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-radius 0.15s, transform 0.15s;
+}
+
+.backBtn:hover{
+    background-color: rgb(170, 5, 5);
+    border-radius: 50px;
+}
+
+.backBtn:active{
+    transform: scale(0.9);
+}
+
+.backBtn1{
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-right: 90px;
+    margin-left: 10px;
+    width: 35px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-radius 0.15s, transform 0.15s;
+}
+
+.backBtn1:hover{
+    background-color: rgb(170, 5, 5);
+    border-radius: 50px;
+}
+
+.backBtn1:active{
+    transform: scale(0.9);
+}
+
+.errorContainer{
+    outline: red dashed 1px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error{
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.closeBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes move {
+    from{
+    }
+    to{
+        font-size: 15px;
+        margin-bottom: 55px;
+        margin-left: px;
+    }
+}
